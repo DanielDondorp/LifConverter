@@ -2,6 +2,9 @@
 
 A simple class that takes care of converting Leica-Image-Files (.lif) into tiff-format, and storing the metadata in an hdf5 file.
 
+### Known bug:
+Currently this does not handle timeseries.
+
 ### Getting started:
 ```
 from LifConverter import LifConverter
